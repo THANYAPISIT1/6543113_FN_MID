@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page2</title><link rel="stylesheet" href="Midterm2.css">
+</head>
+<body>
+    <div class="topnav">
+        <img src="https://upload.wikimedia.org/wikipedia/th/thumb/0/00/University_of_Phayao_Logo.svg/1200px-University_of_Phayao_Logo.svg.png" alt="logo" style="width: 32px;height: 32px;">
+        <a class="active" href="Midterm.html">หน้าแรก</a>
+        <a href="Midterm3.html">ตารางข้อมูลนิสิต</a>
+        <a href="Midterm2.html">สถานที่ฝึกงานนิสิต</a>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="custom-select" style="width:200px;">
+                <form action="/action_page.php">
+                    <input list="province" name="province"placeholder="จังหวัด">
+                    <datalist id="province">
+                      <option value="พะเยา">
+                      <option value="เชียงใหม่">
+                      <option value="เชียงราย">
+                      <option value="กรุงเทพ">
+                      <option value="ระนาด">
+                    </datalist>
+                  </form>
+            </div>
+            <div class="custom-select2" style="width:200px; margin-top: 30px;">
+                <form action="/action_page.php">
+                    <input list="company" name="company" placeholder="บริษัท">
+                    <datalist id="company">
+                      <option value="Google company">
+                      <option value="Intel">
+                      <option value="Microsoft">
+                    </datalist>
+                  </form>
+            </div>
+        </div>
+        <div class="column2">
+            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=University of phayao&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://piratebay-proxys.com/">Piratebay</a></div><style>.mapouter{position:relative;text-align:right;width:600px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:400px;}.gmap_iframe {width:600px!important;height:400px!important;}</style></div>
+        </div>
+    </div>
+
+</body>
+</html>
+

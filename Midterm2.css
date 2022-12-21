@@ -1,0 +1,48 @@
+/* head */
+.topnav {
+    overflow: hidden;
+    background-color: #7E4D9F;
+  }
+  .topnav img{
+    position: relative;
+    float: left;
+    padding: 10px;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  .topnav a.split {
+    float: right;
+    background-color: #1785cf;
+    color: white;
+  }
+/* page */
+.row{
+    margin: 100px;
+}
+.column{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
+.column2{
+    font-style:normal; 
+    float: right;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+    
+}
